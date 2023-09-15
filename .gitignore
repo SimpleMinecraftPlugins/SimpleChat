@@ -1,0 +1,14 @@
+.gradle
+.idea
+
+build
+
+jars
+run
+
+!run/config/paper-world-defaults.yml
+!run/config/paper-global.yml
+!run/server.properties
+!run/spigot.yml
+!run/bukkit.yml
+!run/eula.txt
