@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.ryderbelserion.cluster", "cluster-bukkit", "0.5")
+    implementation("com.ryderbelserion.cluster", "cluster-bukkit", "0.7.1")
 
     paperweight.paperDevBundle("1.20.1-R0.1-SNAPSHOT")
 }

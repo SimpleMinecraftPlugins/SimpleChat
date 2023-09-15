@@ -1,5 +1,6 @@
 package com.ryderbelserion.simplechat.api;
 
+import com.ryderbelserion.cluster.api.RootPlugin;
 import com.ryderbelserion.cluster.api.adventure.FancyLogger;
 import com.ryderbelserion.cluster.bukkit.BukkitPlugin;
 import com.ryderbelserion.simplechat.SimpleChat;
@@ -15,6 +16,7 @@ public class SimpleManager {
     private BukkitPlugin bukkitPlugin;
 
     public void load() {
+        RootPlugin.setConsole(this.plugin.getServer().getConsoleSender());
         FancyLogger.setName("<green>[SimpleChat]</green>");
 
         this.bukkitPlugin = new BukkitPlugin(this.plugin);
