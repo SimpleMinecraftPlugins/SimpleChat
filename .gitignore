@@ -4,7 +4,6 @@
 build
 
 jars
-run
 
 !run/config/paper-world-defaults.yml
 !run/config/paper-global.yml
