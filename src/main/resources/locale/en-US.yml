@@ -1,0 +1,3 @@
+# Available Placeholders: {prefix}
+misc:
+  reload: '{prefix} <red>You have reloaded the plugin</red>'
