@@ -1,5 +1,6 @@
 package com.ryderbelserion.simplechat;
 
+import com.ryderbelserion.cluster.api.adventure.FancyLogger;
 import com.ryderbelserion.simplechat.api.SimpleManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
