@@ -1,24 +1,24 @@
 package com.ryderbelserion.simplechat;
 
-import com.ryderbelserion.simplechat.api.SimpleManager;
+import com.ryderbelserion.simplechat.api.SimpleHandler;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class SimpleChat extends JavaPlugin {
 
-    private SimpleManager simpleManager;
+    private SimpleHandler simpleHandler;
 
     @Override
     public void onEnable() {
-        this.simpleManager = new SimpleManager(this);
-        this.simpleManager.load();
+        this.simpleHandler = new SimpleHandler(this);
+        this.simpleHandler.load();
     }
 
     @Override
     public void onDisable() {
-        this.simpleManager.stop();
+        this.simpleHandler.stop();
     }
 
-    public SimpleManager getSimpleManager() {
-        return this.simpleManager;
+    public SimpleHandler getSimpleManager() {
+        return this.simpleHandler;
     }
 }

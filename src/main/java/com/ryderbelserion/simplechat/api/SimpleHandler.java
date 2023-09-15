@@ -5,11 +5,11 @@ import com.ryderbelserion.cluster.api.adventure.FancyLogger;
 import com.ryderbelserion.cluster.bukkit.BukkitPlugin;
 import com.ryderbelserion.simplechat.SimpleChat;
 
-public class SimpleManager {
+public class SimpleHandler {
 
     private final SimpleChat plugin;
 
-    public SimpleManager(SimpleChat plugin) {
+    public SimpleHandler(SimpleChat plugin) {
         this.plugin = plugin;
     }
 
